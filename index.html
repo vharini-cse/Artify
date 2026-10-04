@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Artify | Artist Portfolio</title>
+
+    <meta
+        name="description"
+        content="Artify is a colorful artist portfolio showcasing creative artwork, exhibitions, achievements, and commissions."
+    >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+        <div class="container nav-container">
+
+            <a href="#home" class="logo">
+                <span class="logo-mark">A</span>
+                <span>Artify</span>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+                ☰
+            </button>
+
+            <nav class="nav-links" id="navLinks">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#featured">Featured</a>
+                <a href="#achievements">Journey</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-shape shape-one"></div>
+            <div class="hero-shape shape-two"></div>
+
+            <div class="container hero-container">
+
+                <div class="hero-content">
+
+                    <p class="eyebrow">
+                        ✦ Contemporary Artist & Visual Storyteller
+                    </p>
+
+                    <h1>
+                        Turning
+                        <span>imagination</span>
+                        into art.
+                    </h1>
+
+                    <p class="hero-text">
+                        Welcome to my creative space — where colors, emotions,
+                        and ideas come together to create meaningful visual stories.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#gallery" class="btn btn-primary">
+                            Explore Artwork
+                        </a>
+
+                        <a href="#contact" class="btn btn-outline">
+                            Commission a Piece
+                        </a>
+                    </div>
+
+                    <div class="artist-stats">
+
+                        <div class="stat">
+                            <strong>120+</strong>
+                            <span>Artworks</span>
+                        </div>
+
+                        <div class="stat">
+                            <strong>18</strong>
+                            <span>Exhibitions</span>
+                        </div>
+
+                        <div class="stat">
+                            <strong>8</strong>
+                            <span>Years Creating</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="hero-art">
+
+                    <div class="art-frame">
+
+                        <div class="abstract-art">
+                            <div class="paint-circle circle-pink"></div>
+                            <div class="paint-circle circle-yellow"></div>
+                            <div class="paint-circle circle-blue"></div>
+                            <div class="paint-circle circle-orange"></div>
+
+                            <div class="paint-stroke stroke-one"></div>
+                            <div class="paint-stroke stroke-two"></div>
+                            <div class="paint-stroke stroke-three"></div>
+
+                            <div class="art-title">
+                                <span>CREATIVE</span>
+                                <strong>ENERGY</strong>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="floating-note">
+                        <span>✦</span>
+                        Art begins where words end.
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+
+        <section class="about section" id="about">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="eyebrow">ABOUT THE ARTIST</p>
+
+                    <h2>
+                        Creating from
+                        <span>curiosity</span>
+                        and emotion.
+                    </h2>
+                </div>
+
+
+                <div class="about-grid">
+
+                    <div class="about-visual">
+
+                        <div class="portrait-card">
+
+                            <div class="portrait-placeholder">
+                                <span>ART</span>
+                                <small>CREATE • FEEL • EXPRESS</small>
+                            </div>
+
+                        </div>
+
+                        <div class="experience-badge">
+                            <strong>08</strong>
+                            <span>Years of<br>Creative Journey</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="about-content">
+
+                        <p class="large-text">
+                            Hi, I'm <strong>Aria Bennett</strong>, a contemporary
+                            artist who loves turning everyday emotions and
+                            observations into colorful visual experiences.
+                        </p>
+
+                        <p>
+                            My creative process combines abstract painting,
+                            digital art, sketching, and experimental techniques.
+                            I believe artwork does not always need a fixed
+                            meaning — sometimes it simply needs to make you feel
+                            something.
+                        </p>
+
+                        <p>
+                            Every canvas is an opportunity to explore color,
+                            movement, texture, and imagination.
+                        </p>
+
+                        <div class="signature">
+                            Aria.
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= GALLERY ================= -->
+
+        <section class="gallery section" id="gallery">
+
+            <div class="container">
+
+                <div class="section-heading gallery-heading">
+
+                    <div>
+                        <p class="eyebrow">MY COLLECTION</p>
+
+                        <h2>
+                            Explore the
+                            <span>gallery.</span>
+                        </h2>
+                    </div>
+
+                    <p class="heading-description">
+                        A collection of paintings, sketches, digital creations,
+                        and abstract experiments.
+                    </p>
+
+                </div>
+
+
+                <!-- Gallery Filters -->
+
+                <div class="filter-buttons">
+
+                    <button class="filter-btn active" data-filter="all">
+                        All
+                    </button>
+
+                    <button class="filter-btn" data-filter="painting">
+                        Painting
+                    </button>
+
+                    <button class="filter-btn" data-filter="digital">
+                        Digital Art
+                    </button>
+
+                    <button class="filter-btn" data-filter="abstract">
+                        Abstract
+                    </button>
+
+                    <button class="filter-btn" data-filter="sketch">
+                        Sketch
+                    </button>
+
+                </div>
+
+
+                <!-- Artwork Grid -->
+
+                <div class="art-grid">
+
+
+                    <article class="art-card" data-category="painting">
+
+                        <div class="art-image artwork-one">
+                            <span class="art-category">Painting</span>
+
+                            <button class="like-btn" aria-label="Like artwork">
+                                ♡
+                            </button>
+                        </div>
+
+                        <div class="art-info">
+                            <div>
+                                <h3>Sunset Memories</h3>
+                                <p>2026 · Acrylic on Canvas</p>
+                            </div>
+
+                            <span class="art-number">01</span>
+                        </div>
+
+                    </article>
+
+
+                    <article class="art-card" data-category="abstract">
+
+                        <div class="art-image artwork-two">
+                            <span class="art-category">Abstract</span>
+
+                            <button class="like-btn" aria-label="Like artwork">
+                                ♡
+                            </button>
+                        </div>
+
+                        <div class="art-info">
+                            <div>
+                                <h3>Inner Motion</h3>
+                                <p>2026 · Mixed Media</p>
+                            </div>
+
+                            <span class="art-number">02</span>
+                        </div>
+
+                    </article>
+
+
+                    <article class="art-card" data-category="digital">
+
+                        <div class="art-image artwork-three">
+                            <span class="art-category">Digital Art</span>
+
+                            <button class="like-btn" aria-label="Like artwork">
+                                ♡
+                            </button>
+                        </div>
+
+                        <div class="art-info">
+                            <div>
+                                <h3>Electric Dreams</h3>
+                                <p>2025 · Digital Illustration</p>
+                            </div>
+
+                            <span class="art-number">03</span>
+                        </div>
+
+                    </article>
+
+
+                    <article class="art-card" data-category="sketch">
+
+                        <div class="art-image artwork-four">
+                            <span class="art-category">Sketch</span>
+
+                            <button class="like-btn" aria-label="Like artwork">
+                                ♡
+                            </button>
+                        </div>
+
+                        <div class="art-info">
+                            <div>
+                                <h3>Quiet Thoughts</h3>
+                                <p>2025 · Graphite Sketch</p>
+                            </div>
+
+                            <span class="art-number">04</span>
+                        </div>
+
+                    </article>
+
+
+                    <article class="art-card" data-category="painting">
+
+                        <div class="art-image artwork-five">
+                            <span class="art-category">Painting</span>
+
+                            <button class="like-btn" aria-label="Like artwork">
+                                ♡
+                            </button>
+                        </div>
+
+                        <div class="art-info">
+                            <div>
+                                <h3>Color Stories</h3>
+                                <p>2025 · Oil on Canvas</p>
+                            </div>
+
+                            <span class="art-number">05</span>
+                        </div>
+
+                    </article>
+
+
+                    <article class="art-card" data-category="digital">
+
+                        <div class="art-image artwork-six">
+                            <span class="art-category">Digital Art</span>
+
+                            <button class="like-btn" aria-label="Like artwork">
+                                ♡
+                            </button>
+                        </div>
+
+                        <div class="art-info">
+                            <div>
+                                <h3>Dreamscape</h3>
+                                <p>2024 · Digital Painting</p>
+                            </div>
+
+                            <span class="art-number">06</span>
+                        </div>
+
+                    </article>
+
+
+                    <article class="art-card" data-category="abstract">
+
+                        <div class="art-image artwork-seven">
+                            <span class="art-category">Abstract</span>
+
+                            <button class="like-btn" aria-label="Like artwork">
+                                ♡
+                            </button>
+                        </div>
+
+                        <div class="art-info">
+                            <div>
+                                <h3>Fragments</h3>
+                                <p>2024 · Acrylic & Ink</p>
+                            </div>
+
+                            <span class="art-number">07</span>
+                        </div>
+
+                    </article>
+
+
+                    <article class="art-card" data-category="sketch">
+
+                        <div class="art-image artwork-eight">
+                            <span class="art-category">Sketch</span>
+
+                            <button class="like-btn" aria-label="Like artwork">
+                                ♡
+                            </button>
+                        </div>
+
+                        <div class="art-info">
+                            <div>
+                                <h3>Faces & Feelings</h3>
+                                <p>2024 · Charcoal Sketch</p>
+                            </div>
+
+                            <span class="art-number">08</span>
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= FEATURED ================= -->
+
+        <section class="featured section" id="featured">
+
+            <div class="container">
+
+                <div class="featured-card">
+
+                    <div class="featured-content">
+
+                        <p class="eyebrow">FEATURED WORK</p>
+
+                        <h2>
+                            “The world looks
+                            <span>different</span>
+                            through color.”
+                        </h2>
+
+                        <p>
+                            A personal exploration of emotion, movement, and
+                            memory through bold colors and expressive forms.
+                        </p>
+
+                        <div class="featured-details">
+
+                            <div>
+                                <span>Medium</span>
+                                <strong>Acrylic on Canvas</strong>
+                            </div>
+
+                            <div>
+                                <span>Year</span>
+                                <strong>2026</strong>
+                            </div>
+
+                            <div>
+                                <span>Size</span>
+                                <strong>36 × 48 in</strong>
+                            </div>
+
+                        </div>
+
+                        <button class="btn btn-dark" id="featuredBtn">
+                            View Artwork
+                        </button>
+
+                    </div>
+
+
+                    <div class="featured-art">
+
+                        <div class="featured-painting">
+
+                            <div class="feature-shape feature-one"></div>
+                            <div class="feature-shape feature-two"></div>
+                            <div class="feature-shape feature-three"></div>
+                            <div class="feature-shape feature-four"></div>
+
+                            <span>NO.</span>
+                            <strong>07</strong>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= JOURNEY ================= -->
+
+        <section class="journey section" id="achievements">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="eyebrow">THE CREATIVE JOURNEY</p>
+
+                    <h2>
+                        Moments that
+                        <span>shaped my art.</span>
+                    </h2>
+                </div>
+
+
+                <div class="timeline">
+
+                    <div class="timeline-item">
+
+                        <div class="timeline-year">2018</div>
+
+                        <div class="timeline-content">
+                            <h3>The First Canvas</h3>
+
+                            <p>
+                                Started exploring acrylic painting and discovered
+                                a passion for visual storytelling.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="timeline-item">
+
+                        <div class="timeline-year">2021</div>
+
+                        <div class="timeline-content">
+                            <h3>First Group Exhibition</h3>
+
+                            <p>
+                                Participated in a local art exhibition and
+                                showcased a collection of abstract works.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="timeline-item">
+
+                        <div class="timeline-year">2024</div>
+
+                        <div class="timeline-content">
+                            <h3>Going Digital</h3>
+
+                            <p>
+                                Expanded into digital illustration and began
+                                experimenting with new creative techniques.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="timeline-item">
+
+                        <div class="timeline-year">2026</div>
+
+                        <div class="timeline-content">
+                            <h3>New Creative Chapter</h3>
+
+                            <p>
+                                Building a growing collection of original
+                                artwork while collaborating with creative
+                                communities.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+
+        <section class="contact section" id="contact">
+
+            <div class="container">
+
+                <div class="contact-card">
+
+                    <div class="contact-content">
+
+                        <p class="eyebrow">LET'S CREATE TOGETHER</p>
+
+                        <h2>
+                            Have an idea?
+                            <span>Let's make it art.</span>
+                        </h2>
+
+                        <p>
+                            Interested in an artwork, commission, collaboration,
+                            or creative project? I'd love to hear from you.
+                        </p>
+
+                        <div class="contact-links">
+
+                            <a href="mailto:hello@artify.com">
+                                ✉ hello@artify.com
+                            </a>
+
+                            <a href="#">
+                                ◎ @artify.artist
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <form class="contact-form" id="contactForm">
+
+                        <div class="form-row">
+
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+
+                                <input
+                                    type="text"
+                                    id="name"
+                                    placeholder="Enter your name"
+                                    required
+                                >
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email</label>
+
+                                <input
+                                    type="email"
+                                    id="email"
+                                    placeholder="you@example.com"
+                                    required
+                                >
+                            </div>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="project">Project Type</label>
+
+                            <select id="project" required>
+
+                                <option value="">
+                                    Select an option
+                                </option>
+
+                                <option value="commission">
+                                    Artwork Commission
+                                </option>
+
+                                <option value="collaboration">
+                                    Collaboration
+                                </option>
+
+                                <option value="exhibition">
+                                    Exhibition
+                                </option>
+
+                                <option value="other">
+                                    Other
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="message">Message</label>
+
+                            <textarea
+                                id="message"
+                                rows="5"
+                                placeholder="Tell me about your idea..."
+                                required
+                            ></textarea>
+
+                        </div>
+
+
+                        <button type="submit" class="btn btn-primary">
+                            Send Inquiry →
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="container footer-container">
+
+            <div class="footer-brand">
+
+                <a href="#home" class="logo">
+                    <span class="logo-mark">A</span>
+                    <span>Artify</span>
+                </a>
+
+                <p>
+                    Art. Color. Emotion. Stories.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <a href="#about">About</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">Contact</a>
+
+            </div>
+
+
+            <p class="copyright">
+                © 2026 Artify. Created with creativity.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- ================= SUCCESS MESSAGE ================= -->
+
+    <div class="toast" id="toast">
+        <span>✓</span>
+        <p>Your message has been sent successfully!</p>
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
